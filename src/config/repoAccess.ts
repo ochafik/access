@@ -309,6 +309,20 @@ export const REPOSITORY_ACCESS: RepositoryAccess[] = [
     ],
   },
   {
+    repository: 'example-remote-server',
+    teams: [
+      { team: 'core-maintainers', permission: 'push' },
+      { team: 'moderators', permission: 'maintain' },
+      { team: 'mcp-apps-wg', permission: 'push' },
+      { team: 'mcp-apps-sdk', permission: 'admin' },
+    ],
+    users: [
+      { username: 'jerome3o-anthropic', permission: 'push' },
+      { username: 'maxisbey', permission: 'push' },
+      { username: 'felixweinberger', permission: 'push' },
+    ],
+  },
+  {
     repository: 'experimental-ext-grouping',
     teams: [
       { team: 'core-maintainers', permission: 'admin' },
